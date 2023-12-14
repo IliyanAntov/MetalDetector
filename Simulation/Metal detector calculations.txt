@@ -1,0 +1,17 @@
+Ic = 1mA
+Uc = 9V/2 = 4.5V
+
+RC = 4.5/1 = 4.5kOhm
+Избираме 4.7kOhm
+
+Ue = 1V
+Re = 1V/1mA = 1kOhm
+
+hfe = 200
+Ib = Ic/hfe = 1m/200 = 5uA
+
+Избираме Idiv = 100uA
+Избираме Ub = 3V
+R1 = (9-3)/100u = 60k
+R2 = 3/100u = 30k
+
