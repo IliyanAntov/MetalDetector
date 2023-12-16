@@ -1662,11 +1662,8 @@
   (junction (at 83.82 119.38) (diameter 0) (color 0 0 0 0)
     (uuid 61c733aa-abf0-4cf4-afd2-27f34a096c0d)
   )
-  (junction (at 214.63 50.8) (diameter 0) (color 0 0 0 0)
+  (junction (at 214.63 55.88) (diameter 0) (color 0 0 0 0)
     (uuid 802f6dd5-5b3c-4222-9f09-8897130d5837)
-  )
-  (junction (at 241.3 34.29) (diameter 0) (color 0 0 0 0)
-    (uuid 83854214-eafc-46b4-9209-8563a9526d7f)
   )
   (junction (at 240.03 34.29) (diameter 0) (color 0 0 0 0)
     (uuid 86167d7d-f5e7-472e-8531-d8009287f73c)
@@ -1701,6 +1698,9 @@
   (junction (at 156.21 170.18) (diameter 0) (color 0 0 0 0)
     (uuid 9a9b9244-8abe-4b3f-8acf-f05c123053a7)
   )
+  (junction (at 237.49 34.29) (diameter 0) (color 0 0 0 0)
+    (uuid 9d1ab434-9acc-40fe-b083-5f85b9e6c89e)
+  )
   (junction (at 195.58 158.75) (diameter 0) (color 0 0 0 0)
     (uuid a068a971-9378-49b7-b955-321b952f0802)
   )
@@ -1719,7 +1719,7 @@
   (junction (at 144.78 119.38) (diameter 0) (color 0 0 0 0)
     (uuid b4dbd5a8-93be-42df-9477-3175ecf9fb51)
   )
-  (junction (at 214.63 63.5) (diameter 0) (color 0 0 0 0)
+  (junction (at 214.63 68.58) (diameter 0) (color 0 0 0 0)
     (uuid b5a0a40c-a0f8-4caa-ac26-d6ea85e5ddb2)
   )
   (junction (at 220.98 162.56) (diameter 0) (color 0 0 0 0)
@@ -1786,10 +1786,6 @@
   (no_connect (at 114.3 106.68) (uuid df88d00d-9214-4c28-bd0d-a54388a39b55))
   (no_connect (at 144.78 132.08) (uuid f39dfc42-21eb-430d-a657-ccfc1041ace6))
 
-  (wire (pts (xy 193.04 24.13) (xy 193.04 25.4))
-    (stroke (width 0) (type default))
-    (uuid 001f6ab5-212b-40fb-b4b0-5e39d52c6cdb)
-  )
   (wire (pts (xy 58.42 29.21) (xy 58.42 30.48))
     (stroke (width 0) (type default))
     (uuid 0195f30e-7a39-456f-81d8-ebfb9badcb6a)
@@ -1906,10 +1902,6 @@
     (stroke (width 0) (type default))
     (uuid 24a806fc-10a0-447e-9027-a1b34b05f609)
   )
-  (wire (pts (xy 219.71 58.42) (xy 222.25 58.42))
-    (stroke (width 0) (type default))
-    (uuid 25d2bea1-69c1-4e59-b505-993b88e3bae6)
-  )
   (wire (pts (xy 53.34 176.53) (xy 57.15 176.53))
     (stroke (width 0) (type default))
     (uuid 285622fa-5750-40cd-b056-edb3b1513648)
@@ -1938,7 +1930,7 @@
     (stroke (width 0) (type default))
     (uuid 2d3a025a-4b0a-439b-b194-e8ccdf7f8d29)
   )
-  (wire (pts (xy 214.63 63.5) (xy 219.71 63.5))
+  (wire (pts (xy 214.63 68.58) (xy 219.71 68.58))
     (stroke (width 0) (type default))
     (uuid 2daae644-b001-41d2-82f0-1c9487fd0d7c)
   )
@@ -1955,10 +1947,6 @@
     (uuid 3003c61c-fdde-4706-8983-fefeaa97a16d)
   )
 
-  (wire (pts (xy 219.71 63.5) (xy 219.71 58.42))
-    (stroke (width 0) (type default))
-    (uuid 3013b517-7033-4a50-9095-daf1ad0ec2de)
-  )
   (wire (pts (xy 146.05 180.34) (xy 156.21 180.34))
     (stroke (width 0) (type default))
     (uuid 31259068-f3df-4733-93f9-8bd2f334de8d)
@@ -1983,6 +1971,10 @@
   (wire (pts (xy 102.87 119.38) (xy 104.14 119.38))
     (stroke (width 0) (type default))
     (uuid 376c2885-725d-40ab-9f53-f0433a6a27b4)
+  )
+  (wire (pts (xy 219.71 45.72) (xy 222.25 45.72))
+    (stroke (width 0) (type default))
+    (uuid 378563c5-d810-445e-9cfc-8dccd885f6df)
   )
   (wire (pts (xy 114.3 115.57) (xy 114.3 119.38))
     (stroke (width 0) (type default))
@@ -2024,13 +2016,17 @@
     (stroke (width 0) (type default))
     (uuid 4087b20e-dfd5-4f69-8efe-b2403764bff2)
   )
-  (wire (pts (xy 193.04 33.02) (xy 193.04 34.29))
-    (stroke (width 0) (type default))
-    (uuid 40db8df6-2911-4cfe-9836-466ea39256ce)
-  )
   (wire (pts (xy 48.26 144.78) (xy 48.26 143.51))
     (stroke (width 0) (type default))
     (uuid 4217c58c-386c-4e61-888a-43c38e37df4f)
+  )
+  (wire (pts (xy 234.95 34.29) (xy 237.49 34.29))
+    (stroke (width 0) (type default))
+    (uuid 43357a82-2f92-4e2a-b745-83412682a95f)
+  )
+  (wire (pts (xy 214.63 55.88) (xy 222.25 55.88))
+    (stroke (width 0) (type default))
+    (uuid 44474b17-390e-43a9-a735-3135e8dca518)
   )
   (wire (pts (xy 27.94 102.87) (xy 35.56 102.87))
     (stroke (width 0) (type default))
@@ -2110,6 +2106,10 @@
     (stroke (width 0) (type default))
     (uuid 56fdcc14-b3c4-4cb0-a6ef-f0417673147b)
   )
+  (wire (pts (xy 219.71 58.42) (xy 222.25 58.42))
+    (stroke (width 0) (type default))
+    (uuid 57bf2dde-7fa5-4fe0-9295-2793117d8864)
+  )
   (wire (pts (xy 60.96 107.95) (xy 64.77 107.95))
     (stroke (width 0) (type default))
     (uuid 57c93532-fdcd-4dd6-a78b-f8a72b1fbe2a)
@@ -2126,7 +2126,7 @@
     (stroke (width 0) (type default))
     (uuid 5b6c4cab-dbd7-476c-8472-74b1741fa000)
   )
-  (wire (pts (xy 200.66 50.8) (xy 203.2 50.8))
+  (wire (pts (xy 200.66 55.88) (xy 203.2 55.88))
     (stroke (width 0) (type default))
     (uuid 5d169a3e-2e2d-4003-9320-b2481ccc9ba1)
   )
@@ -2142,10 +2142,6 @@
   (wire (pts (xy 220.98 152.4) (xy 220.98 153.67))
     (stroke (width 0) (type default))
     (uuid 60340227-7d4a-4b06-9f58-d5f50bb8c4d1)
-  )
-  (wire (pts (xy 219.71 50.8) (xy 219.71 55.88))
-    (stroke (width 0) (type default))
-    (uuid 60797d64-c09a-404b-a64c-e07c22f5136a)
   )
   (polyline (pts (xy 104.14 16.51) (xy 104.14 83.82))
     (stroke (width 0) (type default))
@@ -2245,10 +2241,6 @@
     (stroke (width 0) (type default))
     (uuid 7583325a-2966-42f8-9a3c-744fa7435788)
   )
-  (wire (pts (xy 241.3 34.29) (xy 242.57 34.29))
-    (stroke (width 0) (type default))
-    (uuid 763a1dda-2cdf-4bb9-b876-ed2b79fd2db5)
-  )
   (polyline (pts (xy 13.97 83.82) (xy 102.87 83.82))
     (stroke (width 0) (type default))
     (uuid 7785a20b-5bfe-48c6-95f7-88e3eecf992c)
@@ -2307,6 +2299,10 @@
   (wire (pts (xy 215.9 40.64) (xy 222.25 40.64))
     (stroke (width 0) (type default))
     (uuid 7f061a91-1c8d-4c7c-aafb-f5095d068b0c)
+  )
+  (wire (pts (xy 209.55 45.72) (xy 212.09 45.72))
+    (stroke (width 0) (type default))
+    (uuid 81571522-aab5-4e5f-91fa-a850edf0dbdb)
   )
   (wire (pts (xy 250.19 158.75) (xy 250.19 162.56))
     (stroke (width 0) (type default))
@@ -2450,17 +2446,13 @@
     (stroke (width 0) (type default))
     (uuid 97e53edd-2866-4acb-8dc6-b20bc9314c33)
   )
-  (wire (pts (xy 214.63 50.8) (xy 214.63 53.34))
+  (wire (pts (xy 214.63 55.88) (xy 214.63 58.42))
     (stroke (width 0) (type default))
     (uuid 983b4beb-f5a1-42ec-8e7c-7266950e58a3)
   )
   (wire (pts (xy 134.62 115.57) (xy 134.62 119.38))
     (stroke (width 0) (type default))
     (uuid 9929b906-6fa1-46ca-a394-9c544f550931)
-  )
-  (wire (pts (xy 219.71 50.8) (xy 214.63 50.8))
-    (stroke (width 0) (type default))
-    (uuid 99ca5eac-a04a-4432-ad17-3c38e2fc1879)
   )
   (wire (pts (xy 165.1 115.57) (xy 165.1 119.38))
     (stroke (width 0) (type default))
@@ -2564,7 +2556,7 @@
     (stroke (width 0) (type default))
     (uuid aec0010e-d030-402e-8334-137aa59ba43e)
   )
-  (wire (pts (xy 210.82 63.5) (xy 214.63 63.5))
+  (wire (pts (xy 210.82 68.58) (xy 214.63 68.58))
     (stroke (width 0) (type default))
     (uuid b0fa159d-9fa9-46be-9e8d-f729bdb144b4)
   )
@@ -2612,7 +2604,7 @@
     (stroke (width 0) (type default))
     (uuid b728ed08-2d6e-4bfb-9d6c-38427aa5a566)
   )
-  (wire (pts (xy 241.3 31.75) (xy 241.3 34.29))
+  (wire (pts (xy 240.03 31.75) (xy 240.03 34.29))
     (stroke (width 0) (type default))
     (uuid b8767c84-9afd-4684-a3aa-2cf880787f4a)
   )
@@ -2629,7 +2621,7 @@
     (stroke (width 0) (type default))
     (uuid ba912e24-c7b1-4a45-936c-d68878be2999)
   )
-  (wire (pts (xy 214.63 60.96) (xy 214.63 63.5))
+  (wire (pts (xy 214.63 66.04) (xy 214.63 68.58))
     (stroke (width 0) (type default))
     (uuid bac781ac-a14a-49eb-b924-537711d18d25)
   )
@@ -2699,15 +2691,15 @@
     (stroke (width 0) (type default))
     (uuid c4bd5632-ea64-4b08-acd9-c03d15537979)
   )
+  (wire (pts (xy 219.71 58.42) (xy 219.71 68.58))
+    (stroke (width 0) (type default))
+    (uuid c798cba3-5a77-4052-998a-dea3f36b14d7)
+  )
   (wire (pts (xy 144.78 43.18) (xy 144.78 50.8))
     (stroke (width 0) (type default))
     (uuid c8ea1937-3d8b-4af7-8c33-d7739672fafe)
   )
-  (wire (pts (xy 219.71 55.88) (xy 222.25 55.88))
-    (stroke (width 0) (type default))
-    (uuid c9c6602b-aa75-408d-ad14-9a7efe020b6e)
-  )
-  (wire (pts (xy 240.03 34.29) (xy 241.3 34.29))
+  (wire (pts (xy 240.03 34.29) (xy 242.57 34.29))
     (stroke (width 0) (type default))
     (uuid cb6be207-6ad1-434a-bdb5-9e37e80f9804)
   )
@@ -2803,7 +2795,7 @@
     (uuid e191b1c1-cc1e-47af-9ddc-5b97020c333d)
   )
 
-  (wire (pts (xy 210.82 50.8) (xy 214.63 50.8))
+  (wire (pts (xy 210.82 55.88) (xy 214.63 55.88))
     (stroke (width 0) (type default))
     (uuid e1a1a5e7-43e5-4d6f-aae3-90ce542fe2a0)
   )
@@ -2822,6 +2814,10 @@
   (wire (pts (xy 238.76 129.54) (xy 238.76 128.27))
     (stroke (width 0) (type default))
     (uuid e6ad7c3e-a26b-4b9a-9859-bdfd0353b463)
+  )
+  (wire (pts (xy 234.95 35.56) (xy 234.95 34.29))
+    (stroke (width 0) (type default))
+    (uuid e806e884-f073-4a57-bfcb-b4ad725ec56f)
   )
   (polyline (pts (xy 175.26 190.5) (xy 175.26 154.94))
     (stroke (width 0) (type default))
@@ -2907,7 +2903,7 @@
     (stroke (width 0) (type default))
     (uuid f5c21858-5135-479f-b2db-2cd6cff40c35)
   )
-  (wire (pts (xy 200.66 63.5) (xy 203.2 63.5))
+  (wire (pts (xy 200.66 68.58) (xy 203.2 68.58))
     (stroke (width 0) (type default))
     (uuid f61ecad4-4988-43ce-8db4-3f37fa9d788d)
   )
@@ -3274,7 +3270,7 @@
   (symbol (lib_id "power:VCC") (at 154.94 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 004980ae-08b3-4866-91b0-6bb5ecd9c3d9)
-    (property "Reference" "#PWR013" (at 154.94 44.45 0)
+    (property "Reference" "#PWR015" (at 154.94 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 154.94 36.83 0)
@@ -3290,7 +3286,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -3410,10 +3406,10 @@
   (symbol (lib_id "Device:C") (at 219.71 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d837be3-1434-4549-a2cf-397aa611b96c)
-    (property "Reference" "C10" (at 213.36 120.65 0)
+    (property "Reference" "C14" (at 213.36 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2.2u" (at 212.09 123.19 0)
+    (property "Value" "4.7u" (at 212.09 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 220.6752 125.73 0)
@@ -3427,7 +3423,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "C10") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -3462,7 +3458,7 @@
   (symbol (lib_id "power:VCC") (at 154.94 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 110f73df-5656-467f-a732-89d4c9f663ef)
-    (property "Reference" "#PWR015" (at 154.94 100.33 0)
+    (property "Reference" "#PWR017" (at 154.94 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 154.94 92.71 0)
@@ -3478,7 +3474,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -3536,10 +3532,36 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 215.9 45.72 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1cb2d754-2a9b-45c8-a3d6-3f301336caef)
+    (property "Reference" "R24" (at 215.9 48.26 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10k" (at 215.9 50.8 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 215.9 47.498 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 215.9 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 92dbc159-07ec-4ae6-848e-e3bd3e9d37df))
+    (pin "1" (uuid 01245c48-2e93-44a3-9cd1-c7a5ccf57dce))
+    (instances
+      (project "Metal_detector"
+        (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
+          (reference "R24") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 210.82 162.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d4a79d1-0e5d-4d77-b8bd-641abb1d110e)
-    (property "Reference" "C9" (at 210.82 166.37 90)
+    (property "Reference" "C13" (at 210.82 166.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 210.82 168.91 90)
@@ -3556,7 +3578,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "C9") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -3565,7 +3587,7 @@
   (symbol (lib_id "power:GND") (at 193.04 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20cfa46b-5ffd-4d35-92fa-036120739acc)
-    (property "Reference" "#PWR017" (at 193.04 170.18 0)
+    (property "Reference" "#PWR021" (at 193.04 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 167.64 0)
@@ -3581,7 +3603,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3617,7 +3639,7 @@
   (symbol (lib_id "power:VCC") (at 171.45 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24abc213-af62-4d52-a47f-f08bf2139cb3)
-    (property "Reference" "#PWR016" (at 171.45 36.83 0)
+    (property "Reference" "#PWR020" (at 171.45 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 171.45 29.21 0)
@@ -3633,7 +3655,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -3665,19 +3687,19 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 207.01 50.8 90) (unit 1)
+  (symbol (lib_id "Device:C") (at 207.01 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2bf72305-1e74-4fc1-8874-793aaaf6417a)
-    (property "Reference" "C7" (at 207.01 44.45 90)
+    (property "Reference" "C11" (at 207.01 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "20p" (at 207.01 46.99 90)
+    (property "Value" "20p" (at 207.01 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 210.82 49.8348 0)
+    (property "Footprint" "" (at 210.82 54.9148 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 207.01 50.8 0)
+    (property "Datasheet" "~" (at 207.01 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fbf9a1f2-522d-44d3-82c1-766c1cab2d31))
@@ -3685,7 +3707,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "C7") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -3694,7 +3716,7 @@
   (symbol (lib_id "power:GND") (at 156.21 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e1dd3a7-eff7-4475-901e-708f181ea671)
-    (property "Reference" "#PWR036" (at 156.21 187.96 0)
+    (property "Reference" "#PWR019" (at 156.21 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.21 185.42 0)
@@ -3710,7 +3732,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3745,7 +3767,7 @@
   (symbol (lib_id "Device:R") (at 200.66 162.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3230d20b-7437-4517-acce-aca137b42f62)
-    (property "Reference" "R22" (at 200.66 165.1 90)
+    (property "Reference" "R23" (at 200.66 165.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 200.66 167.64 90)
@@ -3762,7 +3784,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "R22") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -3771,7 +3793,7 @@
   (symbol (lib_id "power:GND") (at 135.89 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 344f33fc-433e-45f9-8b41-67095a103a5c)
-    (property "Reference" "#PWR010" (at 135.89 64.77 0)
+    (property "Reference" "#PWR012" (at 135.89 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 62.23 0)
@@ -3787,7 +3809,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3845,26 +3867,26 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 241.3 31.75 0) (unit 1)
+  (symbol (lib_id "power:VCC") (at 240.03 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b8b8266-c608-4bd8-8fcc-e5753fc73585)
-    (property "Reference" "#PWR023" (at 241.3 35.56 0)
+    (property "Reference" "#PWR028" (at 240.03 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 241.3 27.94 0)
+    (property "Value" "VCC" (at 240.03 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 241.3 31.75 0)
+    (property "Footprint" "" (at 240.03 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 241.3 31.75 0)
+    (property "Datasheet" "" (at 240.03 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 304fd535-a70d-4f4a-998b-ed521d58f401))
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -3899,7 +3921,7 @@
   (symbol (lib_id "power:VCC") (at 156.21 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 448d9858-9b00-4361-99d2-4604bf7bd83e)
-    (property "Reference" "#PWR031" (at 156.21 172.72 0)
+    (property "Reference" "#PWR018" (at 156.21 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 156.21 165.1 0)
@@ -3915,7 +3937,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4024,19 +4046,19 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 207.01 63.5 90) (unit 1)
+  (symbol (lib_id "Device:C") (at 207.01 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c5df854-ad0b-41d2-9641-7614e1b740e8)
-    (property "Reference" "C8" (at 207.01 67.31 90)
+    (property "Reference" "C12" (at 207.01 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "20p" (at 207.01 69.85 90)
+    (property "Value" "20p" (at 207.01 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 210.82 62.5348 0)
+    (property "Footprint" "" (at 210.82 67.6148 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 207.01 63.5 0)
+    (property "Datasheet" "~" (at 207.01 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d9587c92-2f18-400a-be79-7303da09b8af))
@@ -4044,7 +4066,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "C8") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -4131,7 +4153,7 @@
   (symbol (lib_id "Device:R") (at 144.78 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 58a383f1-b8e6-4efd-bffd-6db8cbbb9715)
-    (property "Reference" "R14" (at 146.05 38.1 0)
+    (property "Reference" "R15" (at 146.05 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 146.05 40.64 0)
@@ -4148,32 +4170,32 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "R14") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 200.66 50.8 270) (unit 1)
+  (symbol (lib_id "power:GND") (at 200.66 55.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f80f677-787a-4476-a2c6-53cfca5b127c)
-    (property "Reference" "#PWR018" (at 194.31 50.8 0)
+    (property "Reference" "#PWR022" (at 194.31 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 198.12 50.8 90)
+    (property "Value" "GND" (at 198.12 55.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 200.66 50.8 0)
+    (property "Footprint" "" (at 200.66 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 200.66 50.8 0)
+    (property "Datasheet" "" (at 200.66 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 12ffae6c-b5cf-408d-95ee-b764c3b2edd6))
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4214,7 +4236,7 @@
   (symbol (lib_id "Device:R") (at 144.78 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 61501f2b-b583-49c5-806e-ba224c13f775)
-    (property "Reference" "R15" (at 146.05 69.85 0)
+    (property "Reference" "R16" (at 146.05 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 146.05 72.39 0)
@@ -4231,7 +4253,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "R15") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -4240,7 +4262,7 @@
   (symbol (lib_id "Device:R") (at 134.62 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63aed459-fccb-4bfe-9827-fcae4e755d86)
-    (property "Reference" "R24" (at 135.89 171.45 0)
+    (property "Reference" "R12" (at 135.89 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1" (at 135.89 173.99 0)
@@ -4257,7 +4279,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "R24") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -4370,7 +4392,7 @@
   (symbol (lib_id "Device:R") (at 135.89 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 702ddb3e-1b6e-41f8-b5dc-fdb762d78a25)
-    (property "Reference" "R12" (at 137.16 38.1 0)
+    (property "Reference" "R13" (at 137.16 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 137.16 40.64 0)
@@ -4387,7 +4409,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "R12") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -4449,7 +4471,7 @@
     (property "Reference" "C5" (at 77.47 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 77.47 63.5 0)
+    (property "Value" "1u" (at 77.47 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 75.8952 66.04 0)
@@ -4601,7 +4623,7 @@
   (symbol (lib_id "Device:C") (at 259.08 162.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 793e3336-469e-4865-ac68-aa16af7bbf09)
-    (property "Reference" "C11" (at 259.08 166.37 90)
+    (property "Reference" "C15" (at 259.08 166.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 259.08 168.91 90)
@@ -4618,7 +4640,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "C11") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -4676,36 +4698,10 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 193.04 29.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7e87ceab-2b8a-4246-aabc-3c1de44f6c1f)
-    (property "Reference" "C14" (at 195.58 27.94 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 195.58 30.48 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 194.0052 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 193.04 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid eb3fbffe-4333-4511-ad01-012e0deef903))
-    (pin "2" (uuid 4b026710-4178-4f50-856f-cf277c0cd18b))
-    (instances
-      (project "Metal_detector"
-        (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "C14") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 165.1 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84c6a4a7-3102-483a-983a-e2c6901ca732)
-    (property "Reference" "R19" (at 166.37 101.6 0)
+    (property "Reference" "R20" (at 166.37 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 166.37 104.14 0)
@@ -4722,25 +4718,25 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "R19") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:Crystal") (at 214.63 57.15 90) (unit 1)
+  (symbol (lib_id "Device:Crystal") (at 214.63 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 87bd6541-8ecd-4415-869d-b463a06315bb)
-    (property "Reference" "Y1" (at 207.01 55.88 90)
+    (property "Reference" "Y1" (at 207.01 60.96 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "8MHz" (at 205.74 58.42 90)
+    (property "Value" "8MHz" (at 205.74 63.5 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 214.63 57.15 0)
+    (property "Footprint" "" (at 214.63 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 214.63 57.15 0)
+    (property "Datasheet" "~" (at 214.63 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 1a643a47-8d2f-4329-b899-9dc9f81b4f36))
@@ -4863,7 +4859,7 @@
   (symbol (lib_id "Device:R") (at 175.26 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9050d325-ef49-4bcb-a531-1720b8bef364)
-    (property "Reference" "R21" (at 176.53 101.6 0)
+    (property "Reference" "R22" (at 176.53 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 176.53 104.14 0)
@@ -4880,7 +4876,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "R21") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -4889,7 +4885,7 @@
   (symbol (lib_id "power:VCC") (at 134.62 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 958780d3-085e-4a86-bad9-74a38cfdaf96)
-    (property "Reference" "#PWR028" (at 134.62 172.72 0)
+    (property "Reference" "#PWR09" (at 134.62 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 134.62 165.1 0)
@@ -4905,7 +4901,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -4940,7 +4936,7 @@
   (symbol (lib_id "Device:R") (at 135.89 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ea8f8a3-a362-412a-acd9-77d7aefa77c8)
-    (property "Reference" "R13" (at 137.16 50.8 0)
+    (property "Reference" "R14" (at 137.16 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 137.16 53.34 0)
@@ -4957,7 +4953,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "R13") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -5121,7 +5117,7 @@
   (symbol (lib_id "Device:R") (at 144.78 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4e62994-0636-4b0e-9bf6-069ac741839a)
-    (property "Reference" "R16" (at 146.05 101.6 0)
+    (property "Reference" "R17" (at 146.05 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 146.05 104.14 0)
@@ -5138,7 +5134,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "R16") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -5147,7 +5143,7 @@
   (symbol (lib_id "power:GND") (at 247.65 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab8b8120-f5ef-4112-8349-856ef36b1f86)
-    (property "Reference" "#PWR024" (at 247.65 170.18 0)
+    (property "Reference" "#PWR029" (at 247.65 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 247.65 167.64 0)
@@ -5160,6 +5156,31 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4ef3080a-55c2-4ae4-8f3d-ecd3fed5e10e))
+    (instances
+      (project "Metal_detector"
+        (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
+          (reference "#PWR029") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 209.55 45.72 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ae855b23-73b4-4786-a06e-3d424a4f33c7)
+    (property "Reference" "#PWR024" (at 203.2 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 207.01 45.72 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 209.55 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 209.55 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 77628602-0e79-4d57-b983-49c927b6f06b))
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
@@ -5313,7 +5334,7 @@
   (symbol (lib_id "power:GND") (at 154.94 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b8b39857-0a4d-42ad-8368-52d181ed1c09)
-    (property "Reference" "#PWR014" (at 154.94 62.23 0)
+    (property "Reference" "#PWR016" (at 154.94 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 59.69 0)
@@ -5329,7 +5350,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -5389,7 +5410,7 @@
   (symbol (lib_id "power:GND") (at 134.62 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be08fae4-2d18-4048-bc43-d4cbc6a3c276)
-    (property "Reference" "#PWR025" (at 134.62 190.5 0)
+    (property "Reference" "#PWR010" (at 134.62 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 187.96 0)
@@ -5405,7 +5426,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -5414,7 +5435,7 @@
   (symbol (lib_id "power:VCC") (at 135.89 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfc68aa5-f166-4391-8a11-01023edfec87)
-    (property "Reference" "#PWR09" (at 135.89 36.83 0)
+    (property "Reference" "#PWR011" (at 135.89 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 135.89 29.21 0)
@@ -5430,7 +5451,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -5439,7 +5460,7 @@
   (symbol (lib_id "power:GND") (at 238.76 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfd6ff54-4e31-4979-9ba2-70837281be84)
-    (property "Reference" "#PWR022" (at 238.76 135.89 0)
+    (property "Reference" "#PWR027" (at 238.76 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 133.35 0)
@@ -5455,32 +5476,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR022") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 193.04 24.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c2ae5ad9-547d-4050-ba5f-6310eab97868)
-    (property "Reference" "#PWR029" (at 193.04 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 193.04 20.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 193.04 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 193.04 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c2d568df-48c1-4164-9e4d-65e84c398b00))
-    (instances
-      (project "Metal_detector"
-        (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -5489,7 +5485,7 @@
   (symbol (lib_id "Device:R") (at 156.21 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c721d526-684c-4123-ace4-afabf005de9d)
-    (property "Reference" "R18" (at 156.21 66.04 90)
+    (property "Reference" "R19" (at 156.21 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 156.21 68.58 90)
@@ -5506,7 +5502,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "R18") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -5541,7 +5537,7 @@
   (symbol (lib_id "Device:R") (at 171.45 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cad6eae9-20bd-43f4-8885-def496ca63e7)
-    (property "Reference" "R20" (at 172.72 38.1 0)
+    (property "Reference" "R21" (at 172.72 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3k" (at 172.72 40.64 0)
@@ -5558,7 +5554,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "R20") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -5567,7 +5563,7 @@
   (symbol (lib_id "power:VCC") (at 220.98 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cba43b1f-02af-4731-9a33-0866a9a1ac8a)
-    (property "Reference" "#PWR021" (at 220.98 156.21 0)
+    (property "Reference" "#PWR026" (at 220.98 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 220.98 148.59 0)
@@ -5583,7 +5579,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -5618,7 +5614,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 134.62 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5eba5ef-b2fa-4aa0-b34a-5322b2ffde77)
-    (property "Reference" "C12" (at 137.16 179.07 0)
+    (property "Reference" "C7" (at 137.16 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47u" (at 137.16 181.61 0)
@@ -5635,7 +5631,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "C12") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -5644,7 +5640,7 @@
   (symbol (lib_id "power:GND") (at 219.71 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8ba4755-8ce4-44f4-b9d8-aae2a786c218)
-    (property "Reference" "#PWR020" (at 219.71 135.89 0)
+    (property "Reference" "#PWR025" (at 219.71 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 219.71 133.35 0)
@@ -5660,7 +5656,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -5695,7 +5691,7 @@
   (symbol (lib_id "Device:C") (at 166.37 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dbb6fa11-92b6-428b-8241-f2ba408ec7db)
-    (property "Reference" "C16" (at 168.91 173.99 0)
+    (property "Reference" "C10" (at 168.91 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 168.91 176.53 0)
@@ -5712,7 +5708,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "C16") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -5721,7 +5717,7 @@
   (symbol (lib_id "Device:C") (at 146.05 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dfab5290-f0da-4376-839b-03fdcb191f24)
-    (property "Reference" "C13" (at 148.59 173.99 0)
+    (property "Reference" "C8" (at 148.59 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 148.59 176.53 0)
@@ -5738,7 +5734,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "C13") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -5747,7 +5743,7 @@
   (symbol (lib_id "Device:C") (at 156.21 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e14ce451-cb2a-4949-acf6-f89723751740)
-    (property "Reference" "C15" (at 158.75 173.99 0)
+    (property "Reference" "C9" (at 158.75 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 158.75 176.53 0)
@@ -5764,7 +5760,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "C15") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -5822,26 +5818,26 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 200.66 63.5 270) (unit 1)
+  (symbol (lib_id "power:GND") (at 200.66 68.58 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid edb11a24-18e4-4981-8a48-9b3aba3a4c0c)
-    (property "Reference" "#PWR019" (at 194.31 63.5 0)
+    (property "Reference" "#PWR023" (at 194.31 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 198.12 63.5 90)
+    (property "Value" "GND" (at 198.12 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 200.66 63.5 0)
+    (property "Footprint" "" (at 200.66 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 200.66 63.5 0)
+    (property "Datasheet" "" (at 200.66 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f6b4d5e3-1a79-4583-8b2f-4c2053a5eb25))
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -5902,7 +5898,7 @@
   (symbol (lib_id "Device:R") (at 154.94 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f256aaad-d888-4936-9012-1d6273d438fa)
-    (property "Reference" "R17" (at 156.21 101.6 0)
+    (property "Reference" "R18" (at 156.21 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 156.21 104.14 0)
@@ -5919,7 +5915,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "R17") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -5952,35 +5948,10 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 193.04 34.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f92b9e59-76e3-408f-ad48-d413ff0aeb3e)
-    (property "Reference" "#PWR030" (at 193.04 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 193.04 38.1 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 193.04 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 193.04 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7d9f059b-b60a-4483-8463-a04ef107f819))
-    (instances
-      (project "Metal_detector"
-        (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR030") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 220.98 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fcd94760-5975-4e1c-bd63-4ed106f0a2f4)
-    (property "Reference" "R23" (at 222.25 156.21 0)
+    (property "Reference" "R25" (at 222.25 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 222.25 158.75 0)
@@ -5997,7 +5968,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "R23") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -6006,7 +5977,7 @@
   (symbol (lib_id "power:VCC") (at 144.78 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd50c257-d719-4a51-8db7-a71e6a35e009)
-    (property "Reference" "#PWR011" (at 144.78 36.83 0)
+    (property "Reference" "#PWR013" (at 144.78 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 144.78 29.21 0)
@@ -6022,7 +5993,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -6031,7 +6002,7 @@
   (symbol (lib_id "power:GND") (at 144.78 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fef3a241-9af5-4616-8feb-b47e74bdbc28)
-    (property "Reference" "#PWR012" (at 144.78 83.82 0)
+    (property "Reference" "#PWR014" (at 144.78 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 81.28 0)
@@ -6047,7 +6018,7 @@
     (instances
       (project "Metal_detector"
         (path "/203b2a05-fc00-4b2a-b218-7bd47652b11d"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
