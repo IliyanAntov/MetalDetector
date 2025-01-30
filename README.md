@@ -4,13 +4,17 @@
 
 
 ## Блокова схема:
-<img src="./Documentation/Images/Metal_detector_block_scheme.png" width="800">
+<p align="center">
+  <img src="./Documentation/Images/Metal_detector_block_scheme.png" width="800">
+</p>
 
 ## Принципна електрическа схема:
-<img src="./Documentation/Images/Schematic.png" width="800">
+<p align="center">
+  <img src="./Documentation/Images/Schematic.png" width="800">
+</p>
 
 ## Реализиран прототип:
-<p float="left">
+<p align="center" float="left">
   <img src="./Documentation/Images/Dev_board_3.jpg" width="400" />
   <img src="./Documentation/Images/Search_coil_1.jpg" width="400" />
   <img src="./Documentation/Images/Magnetic_material_detection.jpg" width="400" />
