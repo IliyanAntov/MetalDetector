@@ -4,9 +4,10 @@
 
 
 ## Блокова схема:
-<img src="./Documentation/Images/Metal_detector_block_scheme.png" width="800" />
+<img src="./Documentation/Images/Metal_detector_block_scheme.png" width="800">
+
 ## Принципна електрическа схема:
-<img src="./Documentation/Images/Schematic.png" width="800" />
+<img src="./Documentation/Images/Schematic.png" width="800">
 
 ## Реализиран прототип:
 <p float="left">
@@ -18,7 +19,6 @@
 
 
 ## Използвани технологии:
-
 * Firmware: C/C++
 * MCU platform: STM32
 * Schematics/Layout: KiCAD
