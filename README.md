@@ -1,4 +1,5 @@
-# Металотърсач с биене на честоти <br/>BFO (Beat Frequency Oscillator) metal detector
+ <h1 align="center"> Металотърсач с биене на честоти<br/><br/>
+ BFO (Beat Frequency Oscillator) metal detector</h1>
 
 ## [Документация](./Documentation/KR_EUIU_Iliyan_Antov_101220020.pdf)
 
